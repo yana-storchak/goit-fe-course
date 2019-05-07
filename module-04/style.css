@@ -1,0 +1,155 @@
+.wrapper {
+    margin: auto;
+    width: 1170px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.top {
+    padding-top: 24px;
+    margin-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo {
+    margin-left: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+}
+.logo::first-letter {
+    color: rgb(26, 188, 156);
+  }
+.menu {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    float: right;
+}
+.menu-item {
+    list-style: none;
+    font-family: "OpenSans";
+    float: left;
+    min-height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+}
+.menu-item a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(81, 81, 81);
+}
+.menu-item {
+    margin-right: 30px;
+}
+.menu-item:last-of-type {
+    margin-right: 15px;
+}
+.menu-item:hover a {
+    color: rgb(26, 188, 156);
+}
+.title {
+    font-size:48px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    text-align: center;
+}
+.title::after {
+    content: '';
+    background-color: rgb(26, 188, 156);
+    width: 164px;
+    height: 7px;
+    display: block;
+    margin: 20px auto;
+}
+.cards {
+    margin: 15px;
+}
+.card {
+    width: 255px;
+    height: 320px;
+    cursor: pointer;
+    margin: 0 15px 30px;
+    float: left;
+}
+.card:hover .card-text-wrapper {
+    background: #1abc9c;
+}
+.card:hover .card-prise {
+    background: #7fd9c7;
+}
+.card-img-wrapper {
+    height:280px;
+    overflow: hidden;
+}
+.card-text-wrapper {
+    height:calc(320px - 280px);
+    background-color: #323232;
+    overflow: hidden;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    transition-duration: 0,3s;
+}
+.card-title,
+.card-prise {
+    line-height: calc(320px - 280px);
+}
+.card-title {
+    padding-left: 14px;
+}
+.card-prise {
+    float: right;
+    background: #8c8c8c;
+    padding: 0 12px;
+    transition-duration: 0,3s;
+}
+.news-card {
+    float: left;
+    margin: 0 15px 30px;
+}
+.news-card-right {
+    float: right;
+    margin: 0 15px 30px;
+}
+.news-title {
+    width: 325px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 26px;
+}
+.news-title::after {
+    content: '';
+    background-color: rgb(26, 188, 156);
+    width: 134px; 
+    height: 3px;
+    display: block;
+}
+.news-description {
+    width: 330px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 26px;
+}
+.news-button {
+    border: none;
+    width: 160px;
+    height: 50px;
+    background-color: #4ec6ab;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.39);
+}
