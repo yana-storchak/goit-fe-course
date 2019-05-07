@@ -11,6 +11,7 @@ body {
     width: 900px;
     margin: auto;
     padding-top: 32px;
+    vertical-align: top;
 }
 .list {
     list-style: none;
@@ -19,6 +20,7 @@ body {
 }
 .list-item {
     display: inline-block;
+    margin-right: 20px;
 }
 .list-link{
     text-decoration: none;
@@ -27,7 +29,6 @@ body {
     font-family: sans-serif;
     color: #444;  
     padding: 0 15px;
-    margin-right: 20px;
 }
 .list-link:hover {
     color: blue;
@@ -62,12 +63,19 @@ h4 {
     line-height: 24px;
     margin-bottom: 120px;
 }
+.last-row {
+    margin-bottom: 50px;
+}
 .footer {
     width: 900px;
-    text-align: center;
+    margin: 0 auto;
 }
 .load-btn {
-    padding: 10px 20px 10px 20px ;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    padding: 10px 20px 10px 20px;
     cursor: pointer;
     background-color: transparent;
     font-size: 20px;
